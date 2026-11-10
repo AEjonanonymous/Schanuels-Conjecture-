@@ -1,4 +1,4 @@
-# <i>Transcending Transcendence - Formally Verified Differential-Algebraic Reduction for Schanuel’s Conjecture</i>
+# 📝 Transcending Transcendence - Formally Verified Differential-Algebraic Reduction for Schanuel’s Conjecture
 
 ## 📖 Overview: The Ultimate Mystery of the Exponential and Logarithm
 > Schanuel’s conjecture is widely regarded as the master key of transcendental number theory. If proven, it would instantly resolve hundreds of open mathematical questions across the field. This paper presents a formalization in Lean 4 (utilizing Mathlib) that establishes the structural reduction for transcendental number theory field extensions associated with Schanuel's conjecture. Specifically, we formalize the linear-algebraic, differential, and combinatorial bridge; spanning polynomial-exponential monomial expansions, rational normalizations, Leibniz derivation matrix systems, Cramer's rule determinant extractions, and logarithmic derivative gradient vectors from first principles.
