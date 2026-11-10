@@ -127,3 +127,22 @@ $$\text{rank}(J) \le \text{tr.deg}_{\mathbb{Q}} \mathbb{Q}(\alpha_1, \dots, \alp
 Therefore, matching the full matrix rank with the $n$-dimensional derivation space yields the final direct lower bound:
 
 $$\text{tr.deg}_{\mathbb{Q}} \mathbb{Q}(\alpha_1, \dots, \alpha_n, y_1, \dots, y_n) \ge n$$
+
+## 🤝 Acknowledgements
+The author acknowledges no conflict of interests. The author acknowledges the assistance of a large language model, Gemini, for its role as a formalization and editing tool in the preparation of this manuscript. The AI was used under the direct control of the author. All intellectual and creative decisions, as well as final editorial responsibility, rest with the author.
+
+## 📚 Citation
+
+* 📝 `Transcending Transcendence - A Formally Verified Differential-Algebraic Reduction for Schanuel's Conjecture.pdf`
+
+Reed, Jonathan ƒ(n). (2026). Transcending Transcendence - A Formally Verified Differential-Algebraic Reduction for Schanuel's Conjecture (Version 1.0). Zenodo. 
+https://doi.org/10.5281/zenodo.24092095
+
+---
+
+[![Python 3](https://img.shields.io/badge/Python-v3.12-blue.svg)](https://www.python.org/)
+[![Field: Algebraic Topology](https://img.shields.io/badge/Field-Algebraic%20Topology-purple.svg)](https://en.wikipedia.org/wiki/Algebraic_topology)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+© 2026 Jonathan ƒ(n) Reed
+
