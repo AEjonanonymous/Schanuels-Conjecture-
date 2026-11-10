@@ -44,7 +44,7 @@ Selecting a non-zero term ($k = 0$) with exponent $\Lambda_0$ as an anchor and d
 
 $$1 + \sum_{k=1}^{m} \frac{C_k(\alpha_1, \dots, \alpha_n)}{C_0(\alpha_1, \dots, \alpha_n)} e^{\Lambda_k - \Lambda_0} = 0$$
 
-Defining rational functions of polynomials $R_k(\alpha) = \frac{C_k(\alpha)}{C_0(\alpha)} \in \mathbb{Q}(\alpha_1, \dots, \alpha_n)$ and shifted linear exponents $\tilde{\Lambda}_k = \Lambda_k - \Lambda_0 = \sum_{j=1}^n c_{k,j} \alpha_j$, where $c_{k,j} = a_{k,j} - a_{0,j} \in \mathbb{Q}$, gives the normalized equation:
+Defining rational functions of polynomials $R_k(\alpha) = \frac{C_k(\alpha)}{C_0(\alpha)} \in \mathbb{Q}(\alpha_1, \dots, \alpha_n)$ and shifted linear exponents $`\tilde{\Lambda}_k = \Lambda_k - \Lambda_0 = \sum_{j=1}^n c_{k,j} \alpha_j`$, where $c_{k,j} = a_{k,j} - a_{0,j} \in \mathbb{Q}$, gives the normalized equation:
 
 $$1 + \sum_{k=1}^{m} R_k(\alpha_1, \dots, \alpha_n) e^{\tilde{\Lambda}_k} = 0$$
 
@@ -76,7 +76,7 @@ Applying the partial derivative operator $\frac{\partial}{\partial \alpha_j}$ to
 
 $$\frac{\partial}{\partial \alpha_j} \left( P_{\text{den}}(\alpha) e^{\tilde{\Lambda}_k} \right) = \frac{\partial P_{k,\text{num}}}{\partial \alpha_j}$$
 
-Expanding using the Leibniz product rule and substituting the exponential term $e^{\tilde{\Lambda}_k} = \frac{P_{k,\text{num}}(\alpha)}{P_{\text{den}}(\alpha)}$ produces:
+Expanding using the Leibniz product rule and substituting the exponential term $`e^{\tilde{\Lambda}_k} = \frac{P_{k,\text{num}}(\alpha)}{P_{\text{den}}(\alpha)}`$ produces:
 
 $$\left( \frac{\partial P_{\text{den}}}{\partial \alpha_j} + c_{k,j} P_{\text{den}}(\alpha) \right) \left( \frac{P_{k,\text{num}}(\alpha)}{P_{\text{den}}(\alpha)} \right) = \frac{\partial P_{k,\text{num}}}{\partial \alpha_j}$$
 
@@ -96,7 +96,7 @@ $$c_{k,j} = \frac{\partial}{\partial \alpha_j} \ln(P_{k,\text{num}}(\alpha)) - \
 
 **Step 8: Closed-Form Integration and Gradient Vector Extraction**
 
-Relating the partial derivative of the linear exponent $\frac{\partial \tilde{\Lambda}_k}{\partial \alpha_j} = c_{k,j}$ to the logarithmic derivative identity yields:
+Relating the partial derivative of the linear exponent $`\frac{\partial \tilde{\Lambda}_k}{\partial \alpha_j} = c_{k,j}`$ to the logarithmic derivative identity yields:
 
 $$\frac{\partial \tilde{\Lambda}_k}{\partial \alpha_j} = \frac{\partial}{\partial \alpha_j} \ln\left( \frac{P_{k,\text{num}}(\alpha)}{P_{\text{den}}(\alpha)} \right)$$
 
@@ -112,7 +112,7 @@ where $C_k$ is a complex constant. Exponentiating the integrated relation provid
 
 $$e^{\tilde{\Lambda}_k(\alpha)} = e^{C_k} \cdot \frac{P_{k,\text{num}}(\alpha)}{P_{\text{den}}(\alpha)}$$
 
-Applying the total gradient operator $\nabla = (\frac{\partial}{\partial \alpha_1}, \dots, \frac{\partial}{\partial \alpha_n})$ to both sides of the linear combination extracts the constant rational coefficient vector $\mathbf{c}_k = (c_{k,1}, c_{k,2}, \dots, c_{k,n})$:
+Applying the total gradient operator $\nabla = (\frac{\partial}{\partial \alpha_1}, \dots, \frac{\partial}{\partial \alpha_n})$ to both sides of the linear combination extracts the constant rational coefficient vector $`\mathbf{c}_k = (c_{k,1}, c_{k,2}, \dots, c_{k,n})`$:
 
 $$\mathbf{c}_k = \nabla \ln\left( \frac{P_{k,\text{num}}(\alpha)}{P_{\text{den}}(\alpha)} \right)$$
 
@@ -430,7 +430,7 @@ $$\text{rank}(J) \le \text{tr.deg}_{\mathbb{Q}} \mathbb{Q}(\alpha_1, \dots, \alp
 No messages.
 ```
 
-Furthermore, the explicit coefficient matrix systems and Cramer extraction lemmas established in Lean 4 offer direct templates for tackling other exponential-polynomial syzygies in differential algebra. 
+The formal proof guarantees that *if* the differential-algebraic boundary holds, *then* the linear-algebraic rank-nullity machinery forces the lower bound $n \le m$ with absolute logical soundness. Furthermore, the explicit coefficient matrix systems and Cramer extraction lemmas established in Lean 4 offer direct templates for tackling other exponential-polynomial syzygies in differential algebra. 
 
 <p align="center">$Transcending,$ $Transcendence$</p>
 
