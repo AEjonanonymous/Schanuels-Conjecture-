@@ -448,8 +448,8 @@ https://doi.org/10.5281/zenodo.24092095
 
 ---
 
-[![Python 3](https://img.shields.io/badge/Python-v3.12-blue.svg)](https://www.python.org/)
-[![Field: Algebraic Topology](https://img.shields.io/badge/Field-Algebraic%20Topology-purple.svg)](https://en.wikipedia.org/wiki/Algebraic_topology)
+[![Lean 4](https://img.shields.io/badge/Lean-v4-blue.svg)](https://leanprover.github.io/)
+[![Field: Transcendental Number Theory](https://img.shields.io/badge/Field-Transcendental%20%F0%9F%A7%B0%20Number%20Theory-purple.svg)](https://en.wikipedia.org/wiki/Transcendental_number_theory)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 © 2026 Jonathan ƒ(n) Reed
